@@ -55,7 +55,7 @@ function scripts() {
 }
 
 function styles() {
-	return src('app/scss/main.scss') // Выбираем источник: "app/sass/main.sass"
+	return src(['node_modules/swiper/swiper-bundle.min.css',' app/scss/main.scss']) // Выбираем источник: "app/sass/main.sass"
 	.pipe(eval(preprocessor)()) // Преобразуем значение переменной "preprocessor" в функцию
 	.pipe(concat('app.min.css')) // Конкатенируем в файл app.min.js
 	.pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true })) // Создадим префиксы с помощью Autoprefixer

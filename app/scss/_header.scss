@@ -1,14 +1,47 @@
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header{
      
-}    
- 
-    
+    position:absolute;
+    top: 37px;
+    left: 0; 
+    right: 0;
+}  
+.header-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.Logo{
+    padding-top: 5px;
+    padding-left: 54px;
 
+}
+ 
+
+
+.navigation{
+    padding-left: 200px;   
+     
+   ul{
+    display: flex;
+     }
+   li{
+    padding-right: 28px;
+   } 
+
+}
 .navigation__item{
-    color: #fff;
+    color:$font_color;
     font-size: 14px;
-    font-family:'Montserrat',Light,verdana,sans-serif;
+     
+}
+.navigation__item:hover{
+    color: $activ_color;
+
+}
+.search{
+    display: flex;
+
+}
+.search__icon{
+    padding-left: 24px;
 }
