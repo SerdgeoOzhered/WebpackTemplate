@@ -1,0 +1,23 @@
+.slider{
+    min-height: 100vh;
+    background: url("../images/dest/mauntins.jpg") no-repeat 100% 0;
+    background-size: cover;
+
+    &__prev {
+
+    }
+    
+    &__pagination {
+    
+    
+        .swiper-pagination-bullet {
+    
+    
+            &.swiper-pagination-bullet-active {
+    
+            }
+        }
+    }
+}
+
+ 

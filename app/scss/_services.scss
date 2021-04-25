@@ -1,0 +1,26 @@
+.services{
+    padding: 88px 0 80px;
+
+
+    &__icon{
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        justify-content: space-between;
+        margin: 0 0 25px;
+    }
+    &__tietl{
+        text-align: center;
+        float: 600 22px/1.25 'Raleway','Montserrat',Arial,sans-serif;
+        color: #555;
+        margin: 0 0 15px;
+        color: $dark;
+    }
+    &__text{
+        color: $font_color;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+}

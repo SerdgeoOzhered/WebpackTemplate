@@ -1,10 +1,13 @@
  
 
 $(document).ready(function() {
-	const swiper = new Swiper('.swiper-container', {
+	const swiper = new Swiper('.main-slider ', {
 		// Optional parameters
-		direction: 'vertical',
+		 
 		loop: true,
+		autoplay: {
+			delay: 3000
+		},
 	  
 		// If we need pagination
 		pagination: {
@@ -17,9 +20,6 @@ $(document).ready(function() {
 		  prevEl: '.slider__prev',
 		},
 	  
-		// And if we need scrollbar
-		scrollbar: {
-		  el: '.swiper-scrollbar',
-		},
-	  });
-})
+		 
+	});
+});
